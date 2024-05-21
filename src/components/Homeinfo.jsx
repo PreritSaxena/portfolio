@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { arrow } from '../../clone/3D_portfolio/src/assets/icons'
+import { arrow } from '../../src/assets/icons'
 
 const InfoBox = ({text , link , btnText}) => {
   return (
