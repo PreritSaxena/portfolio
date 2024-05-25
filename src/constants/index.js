@@ -203,7 +203,8 @@ export const projects = [
         name: 'Hospital Management System',
         description: 'Developed a hospital management platform with separate admin and user dashboards. Patients can book appointments and communicate with admins. Admins manage doctors, appointments, and authentication using JWT for security.',
         skills : 'MongoDB, ExpressJS, ReactJs, NodeJS',
-        link: 'https://github.com/PreritSaxena/Doctor-s-Appointment',
+        Github : 'https://github.com/PreritSaxena/Doctor-s-Appointment',
+        link: 'https://hospital-management-system-cwz.netlify.app/',
     },
     {
         iconUrl: ppe,
@@ -219,7 +220,8 @@ export const projects = [
         name: 'Random Gifs Generator',
         description: 'A React.js-powered app fetching random GIFs via API, with a user-friendly search feature for finding GIFs by keywords, providing an immersive and dynamic experience for users to explore and share GIFs effortlessly.',
         skills : 'ReactJs, Giphy API',
-        link: 'https://github.com/PreritSaxena/RandomGif-ReactJS-',
+        Github: 'https://github.com/PreritSaxena/RandomGif-ReactJS-',
+        link : ''
     },
     {
         iconUrl: weather,
@@ -227,7 +229,8 @@ export const projects = [
         name: 'Weather App',
         description: 'Developed a user-friendly application enabling users to access current weather data by granting location or searching worldwide, providing comprehensive details such as wind speed, humidity, and weather conditions.',
         skills : "HTML, CSS, JavaScript, Weather API",
-        link: 'https://github.com/PreritSaxena/WetherApp',
+        Github: 'https://github.com/PreritSaxena/WetherApp',
+        link : '',
     },
 
 ];

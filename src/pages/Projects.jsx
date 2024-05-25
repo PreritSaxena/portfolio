@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { FaGithub  } from 'react-icons/fa';
 import CTA from "../components/CTA";
 import { projects} from "../constants";
 import { arrow } from "../assets/icons";
@@ -49,6 +49,11 @@ const Projects = () => {
         </div>
               <div className='mt-5 flex items-center gap-2 font-poppins'>
              
+              <img
+                  src={arrow}
+                  alt='arrow'
+                  className='w-4 h-4 object-contain'/>
+
                 <Link
                   to={project.link}
                   target='_blank'
@@ -58,10 +63,19 @@ const Projects = () => {
                   Live Link
                 </Link>
 
-                <img
-                  src={arrow}
-                  alt='arrow'
-                  className='w-4 h-4 object-contain'/>
+                <FaGithub size={24}  className='w-5 h-5 object-contain'/>
+
+                <Link
+                  to={project.Github}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='font-semibold blue-gradient_text'
+                >
+                  Github
+                </Link>
+
+               
+                 
               
               </div>
             </div>
