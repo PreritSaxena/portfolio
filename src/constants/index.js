@@ -32,7 +32,8 @@ import {
 
 import hospital from "../assets/projects/hospital.png";
 import ppe from "../assets/projects/ppe.png";
-import gif from "../assets/projects/gif.png";
+import dashboard from "../assets/projects/dashboard.png";
+import dashboard1 from "../assets/projects/dashboard1.png";
 import weather from "../assets/projects/weather.png";
 
 export const skills = [
@@ -215,13 +216,13 @@ export const projects = [
         link: '',
     },
     {
-        iconUrl: gif,
+        iconUrl: dashboard1,
         theme: 'btn-back-blue',
-        name: 'Random Gifs Generator',
-        description: 'A React.js-powered app fetching random GIFs via API, with a user-friendly search feature for finding GIFs by keywords, providing an immersive and dynamic experience for users to explore and share GIFs effortlessly.',
-        skills : 'ReactJs, Giphy API',
-        Github: 'https://github.com/PreritSaxena/RandomGif-ReactJS-',
-        link : ''
+        name: 'Expense Tracker App',
+        description: 'The Expense Tracker App, built with Next.js, Drizzle ORM, Clerk, and Tailwind CSS, lets users manage budgets and track expenses. It features a secure login, budget creation and modification, detailed expense tracking, and a dashboard with visual charts for clear financial overviews.',
+        skills : 'NextJS, Drizzle ORM, Clerk, Tailwind Css',
+        Github: 'https://github.com/PreritSaxena/expense-tracker',
+        link : 'https://expense-tracker-prerit.vercel.app/'
     },
     {
         iconUrl: weather,
