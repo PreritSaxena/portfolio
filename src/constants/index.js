@@ -35,6 +35,7 @@ import ppe from "../assets/projects/ppe.png";
 import dashboard from "../assets/projects/dashboard.png";
 import dashboard1 from "../assets/projects/dashboard1.png";
 import weather from "../assets/projects/weather.png";
+import musicStream from "../assets/projects/musicStream.png";
 
 export const skills = [
     {
@@ -208,12 +209,13 @@ export const projects = [
         link: 'https://hospital-management-system-cwz.netlify.app/',
     },
     {
-        iconUrl: ppe,
-        theme: 'btn-back-green',
-        name: 'PPE Voilation Detection',
-        description: 'Developed an AI-ML powered system to detect Personal Protective Equipment (PPE) violations. The system identifies whether a person is complying with safety protocols. If a violation is detected, an email alert is sent via the Gmail API.',
-        skills : 'Python, OpenCV, KubeFlow, Gmail API',
-        link: '',
+        iconUrl: musicStream,
+        theme: 'btn-back-pink',
+        name: 'Music Stream',
+        description: "A MERN stack-based app replicating Spotify's functionality. Features music streaming, playlist management, and an admin page for adding songs and albums.",
+        skills : "MongoDB, Tailwind-CSS, ReactJS, NodeJS (MERN Stack)",
+        Github: 'https://github.com/PreritSaxena/music_stream',
+        link : '',
     },
     {
         iconUrl: dashboard1,
@@ -224,6 +226,16 @@ export const projects = [
         Github: 'https://github.com/PreritSaxena/expense-tracker',
         link : 'https://expense-tracker-prerit.vercel.app/'
     },
+   
+    
+    {
+        iconUrl: ppe,
+        theme: 'btn-back-green',
+        name: 'PPE Voilation Detection',
+        description: 'Developed an AI-ML powered system to detect Personal Protective Equipment (PPE) violations. The system identifies whether a person is complying with safety protocols. If a violation is detected, an email alert is sent via the Gmail API.',
+        skills : 'Python, OpenCV, KubeFlow, Gmail API',
+        link: '',
+    },
     {
         iconUrl: weather,
         theme: 'btn-back-pink',
@@ -232,7 +244,7 @@ export const projects = [
         skills : "HTML, CSS, JavaScript, Weather API",
         Github: 'https://github.com/PreritSaxena/WetherApp',
         link : '',
-    },
+    }
 
 ];
 
