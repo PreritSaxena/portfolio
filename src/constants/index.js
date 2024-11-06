@@ -36,6 +36,7 @@ import dashboard from "../assets/projects/dashboard.png";
 import dashboard1 from "../assets/projects/dashboard1.png";
 import weather from "../assets/projects/weather.png";
 import musicStream from "../assets/projects/musicStream.png";
+import book from "../assets/projects/book.png"
 
 export const skills = [
     {
@@ -199,6 +200,15 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: book,
+        theme: 'btn-back-green',
+        name: 'Book Heaven',
+        description: 'A book ordering platform with user and admin roles. Users can browse, order books, and track status. Admins manage inventory and update order statuses. Built with React, Node.js, Express, and MongoDB, featuring JWT-based authentication for secure role-based access.',
+        skills : 'ReactJs, JavaScript, JWT Token, Redix, MongoDB, ExpressJs, NodeJs (MERN stack)',
+        link: 'https://book-store-prerit.netlify.app/',
+        Github: 'https://github.com/PreritSaxena/Book-Heaven'
+    },
     {
         iconUrl: hospital,
         theme: 'btn-back-red',
